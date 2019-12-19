@@ -1,0 +1,88 @@
+body {
+    background-image: url("/wp-content/uploads/2019/07/background.png");
+    background-position: center;
+    background-size: cover;
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+}
+
+body #login {
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.login h1 a {
+    background-size: 250px;
+    height: 75px;
+    width: 250px;
+    margin-bottom: 0px;
+    background-position: center;
+}
+
+.login h1 {
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 15px 15px 0px 0px;
+    -webkit-box-shadow: 3 3px 3px rgba(0, 0, 0, .13);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .13);
+}
+
+.login form {
+    margin-top: 0px;
+    padding: 10px 24px 46px;
+    -webkit-box-shadow: 3 3px 3px rgba(0, 0, 0, .13);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .13);
+    border-radius: 0px 0px 15px 15px;
+}
+
+p#backtoblog {
+    display: none;
+}
+
+.wp-core-ui .button-primary {
+    background: #ff9900;
+    border-color: #ff9900;
+    color: #fff;
+    text-shadow: none;
+    -webkit-box-shadow: 3 3px 3px rgba(0, 0, 0, .13);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .13);
+}
+
+.wp-core-ui .button-primary:hover {
+    background: #f90c;
+    border-color: #f90c;
+}
+
+.login form .input,
+.login form input[type="checkbox"],
+.login input[type="text"] {
+    background: #fbfbfb;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #444;
+}
+
+.login #login_error,
+.login .message {
+    margin-bottom: 0px;
+    background-color: #f6f6f6;
+}
+
+.login #nav a {
+    color: #fff9;
+}
+
+.login #nav a:hover {
+    color: #fff6;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+    right: 0;
+    margin: 5px 10px;
+	color: #fff9;
+}
