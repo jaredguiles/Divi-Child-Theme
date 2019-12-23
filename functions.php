@@ -11,7 +11,9 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	__FILE__, //Full path to the main plugin file or functions.php.
 	'divi-child-theme'
 );
-$myUpdateChecker->setAuthentication('JZrxETpiuYtQKHqN8LVf');
+
+//Optional: Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
 
 // BEGIN ENQUE CUSTOM LOGIN //
 include( plugin_dir_path( __FILE__ ) . 'login/functions.php' );
